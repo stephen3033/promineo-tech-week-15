@@ -1,13 +1,11 @@
 import './App.css';
 import { housesAPI } from './housesAPI';
+import HousesList from './components/HousesList';
 
 function App() {
-  let data = housesAPI.get()
-  console.log(data);
-  console.log('test')
   return (
     <div className="App">
-      <h1>Hello, world</h1>
+      <HousesList />
     </div>
   );
 }
