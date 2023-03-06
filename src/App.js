@@ -1,5 +1,4 @@
 import './App.css';
-import { housesAPI } from './housesAPI';
 import HousesList from './components/HousesList';
 
 function App() {
